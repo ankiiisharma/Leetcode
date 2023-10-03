@@ -11,12 +11,13 @@ void PlusOne(vector<int>& v){
         }
         else{
             v[i]++;
-            return v;
+            return;
         }
     }
     v.insert(v.begin(),1);
-    return v;
-}
+    return;
+} 
+
 int main()
 {
     int n,a;
@@ -29,6 +30,10 @@ int main()
         v.push_back(a);
     }
     PlusOne(v);
+
+     for(int i = 0; i < v.size(); i++){
+        cout << v[i] << " ";
+    }
 
     return 0;
 }
