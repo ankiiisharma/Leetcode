@@ -21,8 +21,9 @@ int twoSums(vector<int>& numbers, int target){
         }
     }
 return {};
-
 }
+
+
 int main()
 {
     int n,a;
@@ -33,12 +34,9 @@ int main()
         cin>>a;
         numbers.push_back(a);
     }
-
     int target;
     cin>>target;
-
     int ans = twoSums(numbers,target);
     cout<<ans<<" ";
-
     return 0;
 }
