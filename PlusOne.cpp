@@ -2,15 +2,23 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Question: 
+// You are given a large integer represented as an integer array digits,
+// where each digits[i] is the ith digit of the integer. The digits are ordered from most significant
+// to least significant in left-to-right order. The large integer does not contain any leading 0's.
+// Increment the large integer by one and return the resulting array of digits.
+
 void PlusOne(vector<int>& v){
     int x=v.size();
 
     for(int i=x-1;i>=0;i--){
         if(v[i]==9){
-            v[i]=0;
+            v[i]=0; // here we will check if the last index is 9 then will make it 0 ( bcz xx9++ would give us xx0)
         }
+
+    
         else{
-            v[i]++;
+            v[i]++; // if last index is not 9 then we will simply increment it.
             return;
         }
     }
