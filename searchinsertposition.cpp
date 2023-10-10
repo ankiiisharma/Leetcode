@@ -40,8 +40,6 @@ int main()
     int target;
     cin>>target;
 
-    int x = SearchInsertPosition(nums,target);
-    cout<<x<<endl;
-
- return  0;  
+    SearchInsertPosition(nums,target);
+     return  0;  
 }

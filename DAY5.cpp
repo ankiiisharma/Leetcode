@@ -18,12 +18,14 @@ void merge(int m, vector<int>& nums1, int n,vector<int>& nums2){
         }
         k--;
     }
+        return;
 
     while(j>=0){
         nums1[k]=nums2[j];
         j--;
         k--;
     }
+        return;
 }
 
 int main()
