@@ -23,9 +23,7 @@ int main()
 {
     string s;
     cin>>s;
-    
-    lengthoflastworld(s);
-
-    cout<<lengthoflastworld<<endl;
+    int ans = lengthoflastworld(s);
+    cout<<ans<<endl;
     return 0;
 }
