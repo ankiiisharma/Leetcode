@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Given a string s consisting of words and spaces, return the length of the last word in the string.
+
 int lengthoflastworld(string s){
     int len=0;
     int i=s.length()-1;
