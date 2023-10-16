@@ -18,8 +18,7 @@ int sufflethearray(vector<int>& nums, int n){
         i++;
         j++;
     }
-
-    return answer;
+    return 0;
 }
 
 int main()
@@ -34,9 +33,9 @@ int main()
     }
     sufflethearray(nums, n);
 
-    // for(auto it : nums){
-    //     cout<<nums[it]<<" ";
-    // }
+    for(auto it : nums){
+        cout<<nums[it]<<" ";
+    }
 
     return 0;
 }
