@@ -8,6 +8,7 @@ int shuffleString(string s, int n, vector<int>& indicies){
     for(int i=0;i<n;i++){
         answer[indicies[i]]=s[i];
     }
+    
 return answer;
 }
 
