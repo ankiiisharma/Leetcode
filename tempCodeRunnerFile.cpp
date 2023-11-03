@@ -1,3 +1,1 @@
- // for(auto it : nums){
-    //     cout<<nums[it]<<" ";
-    // }
+cout<<ans;

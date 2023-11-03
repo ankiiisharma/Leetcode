@@ -1,15 +1,16 @@
 #include<iostream>
 #include<bits/stdc++.h>
+
 using namespace std;
 
-class Solution
-{
-  public:
+// class Solution
+// {
+//   public:
     //Function to find maximum of each subarray of size k.
-    vector <int> max_of_subarrays(int *arr, int n, int k)
+    int max_of_subarrays(int *arr, int n, int k)
     {
         // your code here
-                vector<int>ans;
+        vector<int>ans;
         deque<int>dq;
         int max1=INT_MIN;
         int i=0,j=0;
@@ -37,7 +38,7 @@ class Solution
         
 
     }
-};
+// };
 
 
 
@@ -51,10 +52,10 @@ int main()
         cin>>arr[i];
     }
 
-    Solution ob;
+    // Solution ob;
 
-    int ans = max_of_subarrays(arr,n,k);
-    cout<<ans;
+    cout<<max_of_subarrays(arr,n,k);
+    // cout<<ans;
     
     return 0;
 }
