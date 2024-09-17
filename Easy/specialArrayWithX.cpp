@@ -19,6 +19,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int SpecialArray(int nums){
+    
+}
+
 int main()
 {
     int n;
