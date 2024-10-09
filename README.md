@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://w7.pngwing.com/pngs/640/947/png-transparent-leetcode-button-icon.png">
+  <img src="https://ik.imagekit.io/ankiiisharma/lc.png?updatedAt=1728457684333">
 </p>
 
 
